@@ -36,8 +36,6 @@ mountainsSurface = pygame.image.load("pozadifull.png").convert_alpha()
 mountainsRect = mountainsSurface.get_rect(topleft = (0, 0))
 mountainsRect2 = mountainsSurface.get_rect(topleft = (2048, 0))
 
-egg = pygame.image.load("eggfull.png").convert_alpha()
-eggRect = egg.get_rect(bottomleft = (eggX, eggY))
 duck = pygame.image.load("kacenkafull.png").convert_alpha()
 duckRect = duck.get_rect(bottomleft = (duckX, duckY))
 duckGrav = 0
